@@ -29,5 +29,9 @@
         END-TO-END CI/CD PIPELINE COMPLETE!
     </h2>
 
+    <h2 style="color: red; font-size: 40px; text-align: center;">
+        HEY KIDDO WE HAVE DONE OUR DEPLOYMENT WITH LOVE - SUNNU
+    </h2>
+
 </body>
 </html>
