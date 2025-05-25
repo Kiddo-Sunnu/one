@@ -6,16 +6,17 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>in.javahome</groupId>
     <artifactId>myweb</artifactId>
-    <version>9.0.0</version> <!-- ✅ Your selected version -->
+    <version>9.0.0</version> <!-- ✅ Updated version -->
     <packaging>war</packaging>
     <name>Java Home myweb</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <docker.image.prefix>kammana</docker.image.prefix>
-        <sonar.host.url>http://<YOUR-SONAR-IP>:9000/</sonar.host.url>
+        <!-- ✅ Replace with your actual SonarQube IP if needed -->
+        <sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -37,11 +38,11 @@
     <distributionManagement>
         <repository>
             <id>nexusRepo</id>
-            <url>http://<YOUR-NEXUS-IP>:8081/repository/maven-releases/</url>
+            <url>http://3.236.110.68:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://<YOUR-NEXUS-IP>:8081/repository/maven-snapshots/</url>
+            <url>http://3.236.110.68:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
