@@ -12,10 +12,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source> <!-- ✅ Java 17 -->
+        <maven.compiler.source>17</maven.compiler.source> <!-- Java 17 -->
         <maven.compiler.target>17</maven.compiler.target>
         <docker.image.prefix>kammana</docker.image.prefix>
-        <!-- Replace the following with actual Sonar IP or remove this line -->
+        <!-- Uncomment and set your actual Sonar URL if needed -->
         <!-- <sonar.host.url>http://your-sonar-ip:9000/</sonar.host.url> -->
     </properties>
 
@@ -52,7 +52,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.4.0</version>
+                <version>3.3.2</version> <!-- Use stable compatible version -->
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
@@ -61,3 +61,4 @@
     </build>
 
 </project>
+
