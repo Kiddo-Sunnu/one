@@ -6,16 +6,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>in.javahome</groupId>
     <artifactId>myweb</artifactId>
-    <version>9.0.2</version>
+    <version>9.0.105</version> <!-- Updated app version -->
     <packaging>war</packaging>
     <name>Java Home myweb</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source> <!-- Java 17 -->
+        <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <docker.image.prefix>kammana</docker.image.prefix>
-        <!-- Uncomment and set your actual Sonar URL if needed -->
+        <maven.version>3.9.6</maven.version> <!-- Maven version info -->
         <!-- <sonar.host.url>http://your-sonar-ip:9000/</sonar.host.url> -->
     </properties>
 
@@ -52,7 +52,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version> <!-- Use stable compatible version -->
+                <version>3.3.2</version>
                 <configuration>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
@@ -61,4 +61,3 @@
     </build>
 
 </project>
-
