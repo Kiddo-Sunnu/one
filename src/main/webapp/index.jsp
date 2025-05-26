@@ -10,7 +10,7 @@
     </h1>
 
     <h1 style="color: red; font-size: 40px; text-align: center;">
-        APP VERSION: 9.0.0
+        APP VERSION: 9.0.105
     </h1>
 
     <h2 style="color: blue; font-size: 40px; text-align: center;">
@@ -22,7 +22,7 @@
     </h2>
 
     <h2 style="color: black; font-size: 40px; text-align: center;">
-        NOW DEPLOYED ON TOMCAT SERVER
+        NOW DEPLOYED ON TOMCAT SERVER VERSION 9.0.105
     </h2>
 
     <h2 style="color: blue; font-size: 40px; text-align: center;">
@@ -39,4 +39,3 @@
 
 </body>
 </html>
-
